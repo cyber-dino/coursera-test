@@ -1,37 +1,107 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module-2 Assignment Coursera</title>
+<style>
 
-You can use the [editor on GitHub](https://github.com/cyber-dino/coursera-test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  background: grey
+}
+h2{
+  font-style: italic;
+  background-color: red ;
+  text-align: right;
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+}
 
-```markdown
-Syntax highlighted code block
+p {
+  border: 1px solid black;
+  background-color: yellow;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Ariel;
+  color: black;
+  text-align: center;
+}
 
-# Header 1
-## Header 2
-### Header 3
+.row {
+  width: 100%;
+}
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+@media (min-width: 991px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 66.66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
 
-**Bold** and _Italic_ and `Code` text
+}
 
-[Link](url) and ![Image](src)
-```
+@media (min-width: 768px) and (max-width: 990px) {
+  .col-ml-1, .col-ml-2, .col-ml-3 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-ml-1 {
+    width: 50%;
+    
+  }
+  .col-ml-2 {
+    width: 100%;
+    
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  }
+  .col-ml-3{
+    width: 100%;
+    clear: left;
+  }
+}
+@media (max-width: 768px){
+  .col-md-1, .col-md-2, .col-md-3{
+    border: 1px solid blue;
+  }
+  .col-md-1{
+    width: 33.33%;
+  }
+  .col-md-2{
+  width: 66.66%;
+  }
+  .col-md-3{
+    width: 100%;
+  }
+}
 
-### Jekyll Themes
+</style>
+</head>
+<body>
+  <center><h1>Our Menu</h1></center>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cyber-dino/coursera-test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+<div class="row">
+  <div class="col-lg-1 col-ml-1 col-md-3"><h2>Chicken</h2><p>A B C D</p></div>
+  <div class="col-lg-1 col-ml-1 col-md-3"><h2>Beef</h2><p>E F G H</p></div>
+  <div class="col-lg-1 col-ml-2 col-md-3"><h2>Sushi</h2><p>I J K L</p></div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</div>
+
+</body>
+</html>
