@@ -12,18 +12,18 @@
 }
 h1 {
   margin-bottom: 15px;
-  background: grey
+  background: pink
 }
 h2{
   font-style: italic;
-  background-color: red ;
+  background-color: grey ;
   text-align: right;
 
 
 }
 
 p {
-  border: 1px solid black;
+  border: 3px solid black;
   background-color: yellow;
   width: 90%;
   height: 150px;
@@ -93,13 +93,13 @@ p {
 </style>
 </head>
 <body>
-  <center><h1>Our Menu</h1></center>
+  <center><h1>Watermelon Sugar</h1></center>
 
 
 <div class="row">
-  <div class="col-lg-1 col-ml-1 col-md-3"><h2>Chicken</h2><p>A B C D</p></div>
-  <div class="col-lg-1 col-ml-1 col-md-3"><h2>Beef</h2><p>E F G H</p></div>
-  <div class="col-lg-1 col-ml-2 col-md-3"><h2>Sushi</h2><p>I J K L</p></div>
+  <div class="col-lg-1 col-ml-1 col-md-3"><h2>Rishav</h2><p>A B C D</p></div>
+  <div class="col-lg-1 col-ml-1 col-md-3"><h2>Sharma</h2><p>D E F G</p></div>
+  <div class="col-lg-1 col-ml-2 col-md-3"><h2>Rishav</h2><p>H I J K</p></div>
 
 </div>
 
